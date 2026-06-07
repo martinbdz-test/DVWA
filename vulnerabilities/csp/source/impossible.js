@@ -1,5 +1,5 @@
 function clickButton() {
-    var s = document.createElement("script");
+    const s = document.createElement("script");
     s.src = "source/jsonp_impossible.php";
     document.body.appendChild(s);
 }
@@ -10,7 +10,7 @@ function solveSum(obj) {
 	}
 }
 
-var solve_button = document.getElementById ("solve");
+const solve_button = document.getElementById ("solve");
 
 if (solve_button) {
 	solve_button.addEventListener("click", function() {
